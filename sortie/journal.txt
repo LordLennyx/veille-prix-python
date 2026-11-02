@@ -1,15 +1,15 @@
-11:53:43  Kiosque Akwa    page 1   6 produits
-11:53:43  Kiosque Akwa    page 2   6 produits
-11:53:44  Kiosque Akwa    page 3   2 produits
-11:53:44  Marché Digital  page 1   6 produits
-11:53:44  Marché Digital  page 2   6 produits
-11:53:44  Marché Digital  page 3   1 produits
-11:53:44  BonPlan237      page 1   6 produits
-11:53:44  BonPlan237      page 2   6 produits
-11:53:45  BonPlan237      page 3   4 produits
-11:53:45  43 produits, 9 alertes, 20 produits comparés -> sortie
-11:53:45    BAISSE   marche-digital  Infinix Hot 40i 128 Go -11.6 %
-11:53:45    RUPTURE  kiosque         Imprimante Canon Pixma G2410 
-11:53:45    RUPTURE  bon-plan        Infinix Note 40 256 Go 
-11:53:45    RUPTURE  bon-plan        Power bank Oraimo 20 000 mAh 
-11:53:45    RETOUR   kiosque         Réfrigérateur Hisense 205 L 
+18:46:31  Kiosque Akwa    page 1   6 produits
+18:46:31  Kiosque Akwa    page 2   6 produits
+18:46:32  Kiosque Akwa    page 3   2 produits
+18:46:32  Marché Digital  page 1   6 produits
+18:46:32  Marché Digital  page 2   6 produits
+18:46:32  Marché Digital  page 3   1 produits
+18:46:32  BonPlan237      page 1   6 produits
+18:46:33  BonPlan237      page 2   6 produits
+18:46:33  BonPlan237      page 3   4 produits
+18:46:33  43 produits, 8 alertes, 20 produits comparés -> sortie
+18:46:33    BAISSE   marche-digital  Infinix Hot 40i 128 Go -13.8 %
+18:46:33    RUPTURE  kiosque         Imprimante Canon Pixma G2410 
+18:46:33    RUPTURE  bon-plan        Infinix Note 40 256 Go 
+18:46:33    RUPTURE  bon-plan        Power bank Oraimo 20 000 mAh 
+18:46:33    RETOUR   kiosque         Réfrigérateur Hisense 205 L 

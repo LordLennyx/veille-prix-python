@@ -17,7 +17,7 @@ def lire(el, regle):
 
 
 def prix(txt):
-    """'98 000 FCFA', '98.000 F', '98000' -> 98000 ; None si illisible."""
+    """'1 049,00 €', '149 EUR', '98 000 FCFA', '98.000 F' -> montant entier ; None si illisible."""
     if txt is None:
         return None
     chiffres = re.sub(r"[^\d]", "", str(txt).split(",")[0])

@@ -3,6 +3,8 @@ from veille.analyse import differences, comparatif
 
 
 def test_prix():
+    assert prix("1 049,00 €") == 1049
+    assert prix("149 EUR") == 149
     assert prix("98 000 FCFA") == 98000
     assert prix("98.000 F") == 98000
     assert prix(None) is None and prix("sur devis") is None

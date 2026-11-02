@@ -53,249 +53,249 @@
    "source": "Marché Digital",
    "pages": 3,
    "produits": 13,
-   "secondes": 0.61,
+   "secondes": 0.6,
    "erreurs": 0
   },
   {
    "source": "BonPlan237",
    "pages": 3,
    "produits": 16,
-   "secondes": 0.61,
+   "secondes": 0.6,
    "erreurs": 0
   }
  ],
  "comparatif": [
   {
-   "cle": "routeur 4g huawei b311",
-   "nom": "Routeur 4G Huawei B311",
-   "prix": {
-    "kiosque": 42500,
-    "marche-digital": 36000,
-    "bon-plan": 45500
-   },
-   "meilleur": "marche-digital",
-   "min": 36000,
-   "ecart": 26.4
-  },
-  {
    "cle": "tecno spark 20 pro 256go",
    "nom": "Tecno Spark 20 Pro 256 Go",
    "prix": {
-    "kiosque": 93000,
-    "marche-digital": 90500,
-    "bon-plan": 113500
+    "kiosque": 139,
+    "marche-digital": 134,
+    "bon-plan": 174
    },
    "meilleur": "marche-digital",
-   "min": 90500,
-   "ecart": 25.4
+   "min": 134,
+   "ecart": 29.9
+  },
+  {
+   "cle": "routeur 4g huawei b311",
+   "nom": "Routeur 4G Huawei B311",
+   "prix": {
+    "kiosque": 74,
+    "marche-digital": 64,
+    "bon-plan": 79
+   },
+   "meilleur": "marche-digital",
+   "min": 64,
+   "ecart": 23.4
   },
   {
    "cle": "tecno camon 30 256go",
    "nom": "Tecno Camon 30 256 Go",
    "prix": {
-    "kiosque": 183000,
-    "marche-digital": 163500,
-    "bon-plan": 148500
+    "kiosque": 274,
+    "marche-digital": 244,
+    "bon-plan": 224
    },
    "meilleur": "bon-plan",
-   "min": 148500,
-   "ecart": 23.2
-  },
-  {
-   "cle": "fer a repasser philips",
-   "nom": "Fer à repasser Philips",
-   "prix": {
-    "kiosque": 14500,
-    "bon-plan": 12000
-   },
-   "meilleur": "bon-plan",
-   "min": 12000,
-   "ecart": 20.8
+   "min": 224,
+   "ecart": 22.3
   },
   {
    "cle": "refrigerateur hisense 205l",
    "nom": "Réfrigérateur Hisense 205 L",
    "prix": {
-    "kiosque": 164000,
-    "bon-plan": 190000
+    "kiosque": 304,
+    "bon-plan": 349
    },
    "meilleur": "kiosque",
-   "min": 164000,
-   "ecart": 15.9
+   "min": 304,
+   "ecart": 14.8
   },
   {
    "cle": "climatiseur nasco 1 5cv",
    "nom": "Climatiseur Nasco 1,5 CV",
    "prix": {
-    "kiosque": 218500,
-    "marche-digital": 218500,
-    "bon-plan": 244500
+    "kiosque": 434,
+    "marche-digital": 434,
+    "bon-plan": 489
    },
    "meilleur": "kiosque",
-   "min": 218500,
-   "ecart": 11.9
+   "min": 434,
+   "ecart": 12.7
   },
   {
    "cle": "infinix note 40 256go",
    "nom": "Infinix Note 40 256 Go",
    "prix": {
-    "kiosque": 127500,
-    "marche-digital": 142500
+    "kiosque": 199,
+    "marche-digital": 224
    },
    "meilleur": "kiosque",
-   "min": 127500,
-   "ecart": 11.8
+   "min": 199,
+   "ecart": 12.6
   },
   {
    "cle": "ordinateur hp 250 g9 i5",
    "nom": "Ordinateur HP 250 G9 i5",
    "prix": {
-    "kiosque": 377000,
-    "marche-digital": 338000
+    "kiosque": 669,
+    "marche-digital": 599
    },
    "meilleur": "marche-digital",
-   "min": 338000,
-   "ecart": 11.5
-  },
-  {
-   "cle": "imprimante canon pixma g2410",
-   "nom": "Imprimante Canon Pixma G2410",
-   "prix": {
-    "marche-digital": 92000,
-    "bon-plan": 100500
-   },
-   "meilleur": "marche-digital",
-   "min": 92000,
-   "ecart": 9.2
-  },
-  {
-   "cle": "oraimo freepods 4",
-   "nom": "Oraimo FreePods 4",
-   "prix": {
-    "kiosque": 19000,
-    "bon-plan": 20500
-   },
-   "meilleur": "kiosque",
-   "min": 19000,
-   "ecart": 7.9
+   "min": 599,
+   "ecart": 11.7
   },
   {
    "cle": "infinix hot 40i 128go",
    "nom": "Infinix Hot 40i 128 Go",
    "prix": {
-    "kiosque": 69500,
-    "marche-digital": 64500
+    "kiosque": 104,
+    "marche-digital": 94
    },
    "meilleur": "marche-digital",
-   "min": 64500,
-   "ecart": 7.8
+   "min": 94,
+   "ecart": 10.6
   },
   {
-   "cle": "televiseur tcl 43 pouces 4k",
-   "nom": "Téléviseur TCL 43 pouces 4K",
+   "cle": "imprimante canon pixma g2410",
+   "nom": "Imprimante Canon Pixma G2410",
    "prix": {
-    "kiosque": 162000,
-    "bon-plan": 150500
-   },
-   "meilleur": "bon-plan",
-   "min": 150500,
-   "ecart": 7.6
-  },
-  {
-   "cle": "groupe electrogene tiger 3kva",
-   "nom": "Groupe électrogène Tiger 3 kVA",
-   "prix": {
-    "marche-digital": 249500,
-    "bon-plan": 267500
+    "marche-digital": 169,
+    "bon-plan": 184
    },
    "meilleur": "marche-digital",
-   "min": 249500,
-   "ecart": 7.2
+   "min": 169,
+   "ecart": 8.9
   },
   {
    "cle": "congelateur innova 200l",
    "nom": "Congélateur Innova 200 L",
    "prix": {
-    "marche-digital": 178000,
-    "bon-plan": 190500
+    "marche-digital": 334,
+    "bon-plan": 359
    },
    "meilleur": "marche-digital",
-   "min": 178000,
-   "ecart": 7.0
+   "min": 334,
+   "ecart": 7.5
   },
   {
-   "cle": "ventilateur binatone 18 pouces",
-   "nom": "Ventilateur Binatone 18 pouces",
+   "cle": "groupe electrogene tiger 3kva",
+   "nom": "Groupe électrogène Tiger 3 kVA",
    "prix": {
-    "kiosque": 19500,
-    "bon-plan": 19000
+    "marche-digital": 609,
+    "bon-plan": 654
+   },
+   "meilleur": "marche-digital",
+   "min": 609,
+   "ecart": 7.4
+  },
+  {
+   "cle": "televiseur tcl 43 pouces 4k",
+   "nom": "Téléviseur TCL 43 pouces 4K",
+   "prix": {
+    "kiosque": 304,
+    "bon-plan": 284
    },
    "meilleur": "bon-plan",
-   "min": 19000,
-   "ecart": 2.6
+   "min": 284,
+   "ecart": 7.0
   },
   {
    "cle": "samsung galaxy a15 128go",
    "nom": "Samsung Galaxy A15 128 Go",
    "prix": {
-    "kiosque": 110500,
-    "bon-plan": 108000
+    "kiosque": 169,
+    "bon-plan": 169
    },
-   "meilleur": "bon-plan",
-   "min": 108000,
-   "ecart": 2.3
+   "meilleur": "kiosque",
+   "min": 169,
+   "ecart": 0.0
+  },
+  {
+   "cle": "oraimo freepods 4",
+   "nom": "Oraimo FreePods 4",
+   "prix": {
+    "kiosque": 29,
+    "bon-plan": 29
+   },
+   "meilleur": "kiosque",
+   "min": 29,
+   "ecart": 0.0
+  },
+  {
+   "cle": "ventilateur binatone 18 pouces",
+   "nom": "Ventilateur Binatone 18 pouces",
+   "prix": {
+    "kiosque": 34,
+    "bon-plan": 34
+   },
+   "meilleur": "kiosque",
+   "min": 34,
+   "ecart": 0.0
+  },
+  {
+   "cle": "fer a repasser philips",
+   "nom": "Fer à repasser Philips",
+   "prix": {
+    "kiosque": 24,
+    "bon-plan": 24
+   },
+   "meilleur": "kiosque",
+   "min": 24,
+   "ecart": 0.0
   },
   {
    "cle": "xiaomi redmi 13c 128go",
    "nom": "Xiaomi Redmi 13C 128 Go",
    "prix": {
-    "marche-digital": 78500
+    "marche-digital": 119
    },
    "meilleur": "marche-digital",
-   "min": 78500,
+   "min": 119,
    "ecart": 0.0
   },
   {
    "cle": "samsung galaxy a25 5g",
    "nom": "Samsung Galaxy A25 5G",
    "prix": {
-    "marche-digital": 166500
+    "marche-digital": 264
    },
    "meilleur": "marche-digital",
-   "min": 166500,
+   "min": 264,
    "ecart": 0.0
   },
   {
    "cle": "power bank oraimo 20 000mah",
    "nom": "Power bank Oraimo 20 000 mAh",
    "prix": {
-    "marche-digital": 16500
+    "marche-digital": 29
    },
    "meilleur": "marche-digital",
-   "min": 16500,
+   "min": 29,
    "ecart": 0.0
   },
   {
    "cle": "itel a70 64go",
    "nom": "itel A70 64 Go",
    "prix": {
-    "bon-plan": 51000
+    "bon-plan": 84
    },
    "meilleur": "bon-plan",
-   "min": 51000,
+   "min": 84,
    "ecart": 0.0
   }
  ],
  "alertes": [
   {
    "type": "baisse",
-   "ancien": 73000,
-   "ecart": -11.6,
+   "ancien": 109,
+   "ecart": -13.8,
    "source": "marche-digital",
    "ref": "MAR-1001",
    "nom": "Infinix Hot 40i 128 Go",
    "cle": "infinix hot 40i 128go",
-   "prix": 64500,
+   "prix": 94,
    "stock": true
   },
   {
@@ -304,7 +304,7 @@
    "ref": "KIO-1017",
    "nom": "Imprimante Canon Pixma G2410",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": false
   },
   {
@@ -313,7 +313,7 @@
    "ref": "BON-1007",
    "nom": "Infinix Note 40 256 Go",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": false
   },
   {
@@ -322,7 +322,7 @@
    "ref": "BON-1009",
    "nom": "Power bank Oraimo 20 000 mAh",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": false
   },
   {
@@ -331,7 +331,7 @@
    "ref": "KIO-1011",
    "nom": "Réfrigérateur Hisense 205 L",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": true
   },
   {
@@ -340,7 +340,7 @@
    "ref": "MAR-1017",
    "nom": "Imprimante Canon Pixma G2410",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": true
   },
   {
@@ -349,29 +349,18 @@
    "ref": "BON-1014",
    "nom": "Ventilateur Binatone 18 pouces",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": true
   },
   {
    "type": "hausse",
-   "ancien": 40500,
-   "ecart": 4.9,
+   "ancien": 69,
+   "ecart": 7.2,
    "source": "kiosque",
    "ref": "KIO-1018",
    "nom": "Routeur 4G Huawei B311",
    "cle": "routeur 4g huawei b311",
-   "prix": 42500,
-   "stock": true
-  },
-  {
-   "type": "hausse",
-   "ancien": 13500,
-   "ecart": 7.4,
-   "source": "kiosque",
-   "ref": "KIO-1019",
-   "nom": "Fer à repasser Philips",
-   "cle": "fer a repasser philips",
-   "prix": 14500,
+   "prix": 74,
    "stock": true
   }
  ],
@@ -380,2107 +369,2107 @@
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 107000,
+   "prix": 164,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 0
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 161500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 0
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 235000,
+   "prix": 469,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 20000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 42500,
+   "prix": 74,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 79000,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 0
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 176000,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 145000,
+   "prix": 229,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 186500,
+   "prix": 344,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 152500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 22500,
+   "prix": 39,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 98000,
+   "prix": 149,
    "stock": 0
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 384500,
+   "prix": 684,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-27",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 0
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 107000,
+   "prix": 164,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 0
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 235000,
+   "prix": 469,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 0
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 176000,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 152500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 98000,
+   "prix": 149,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 384500,
+   "prix": 684,
    "stock": 1
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 0
   },
   {
    "jour": "2026-10-28",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 107000,
+   "prix": 164,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 244500,
+   "prix": 489,
    "stock": 0
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 176000,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 152500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 90500,
+   "prix": 134,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 338000,
+   "prix": 599,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-29",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 0
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 107000,
+   "prix": 164,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 0
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 244500,
+   "prix": 489,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 176000,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 152500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 90500,
+   "prix": 134,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 338000,
+   "prix": 599,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-30",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 108000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 244500,
+   "prix": 489,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 0
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 0
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 100500,
+   "prix": 184,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 176000,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 162000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 90500,
+   "prix": 134,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 338000,
+   "prix": 599,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-10-31",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 36000,
+   "prix": 64,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 108000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 244500,
+   "prix": 489,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 0
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 100500,
+   "prix": 184,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 183000,
+   "prix": 274,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 0
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 162000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 40500,
+   "prix": 69,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 13500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 90500,
+   "prix": 134,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 73000,
+   "prix": 109,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 338000,
+   "prix": 599,
    "stock": 1
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 0
   },
   {
    "jour": "2026-11-01",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 36000,
+   "prix": 64,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 113500,
+   "prix": 174,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "samsung galaxy a15 128go",
-   "prix": 108000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "itel a70 64go",
-   "prix": 51000,
+   "prix": 84,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "tecno camon 30 256go",
-   "prix": 148500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "infinix note 40 256go",
-   "prix": 151000,
+   "prix": 239,
    "stock": 0
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "oraimo freepods 4",
-   "prix": 20500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 15500,
+   "prix": 24,
    "stock": 0
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 244500,
+   "prix": 489,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "refrigerateur hisense 205l",
-   "prix": 190000,
+   "prix": 349,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 150500,
+   "prix": 284,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "congelateur innova 200l",
-   "prix": 190500,
+   "prix": 359,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19000,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 267500,
+   "prix": 654,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "imprimante canon pixma g2410",
-   "prix": 100500,
+   "prix": 184,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "routeur 4g huawei b311",
-   "prix": 45500,
+   "prix": 79,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "bon-plan",
    "cle": "fer a repasser philips",
-   "prix": 12000,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 93000,
+   "prix": 139,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "infinix hot 40i 128go",
-   "prix": 69500,
+   "prix": 104,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "samsung galaxy a15 128go",
-   "prix": 110500,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "tecno camon 30 256go",
-   "prix": 183000,
+   "prix": 274,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "infinix note 40 256go",
-   "prix": 127500,
+   "prix": 199,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "oraimo freepods 4",
-   "prix": 19000,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "refrigerateur hisense 205l",
-   "prix": 164000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "televiseur tcl 43 pouces 4k",
-   "prix": 162000,
+   "prix": 304,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "ventilateur binatone 18 pouces",
-   "prix": 19500,
+   "prix": 34,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 377000,
+   "prix": 669,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "imprimante canon pixma g2410",
-   "prix": 96000,
+   "prix": 174,
    "stock": 0
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "routeur 4g huawei b311",
-   "prix": 42500,
+   "prix": 74,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "kiosque",
    "cle": "fer a repasser philips",
-   "prix": 14500,
+   "prix": 24,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "tecno spark 20 pro 256go",
-   "prix": 90500,
+   "prix": 134,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "infinix hot 40i 128go",
-   "prix": 64500,
+   "prix": 94,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "xiaomi redmi 13c 128go",
-   "prix": 78500,
+   "prix": 119,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "tecno camon 30 256go",
-   "prix": 163500,
+   "prix": 244,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "samsung galaxy a25 5g",
-   "prix": 166500,
+   "prix": 264,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "infinix note 40 256go",
-   "prix": 142500,
+   "prix": 224,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "power bank oraimo 20 000mah",
-   "prix": 16500,
+   "prix": 29,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "climatiseur nasco 1 5cv",
-   "prix": 218500,
+   "prix": 434,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "congelateur innova 200l",
-   "prix": 178000,
+   "prix": 334,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "groupe electrogene tiger 3kva",
-   "prix": 249500,
+   "prix": 609,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "ordinateur hp 250 g9 i5",
-   "prix": 338000,
+   "prix": 599,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "imprimante canon pixma g2410",
-   "prix": 92000,
+   "prix": 169,
    "stock": 1
   },
   {
    "jour": "2026-11-02",
    "source": "marche-digital",
    "cle": "routeur 4g huawei b311",
-   "prix": 36000,
+   "prix": 64,
    "stock": 1
   }
  ]

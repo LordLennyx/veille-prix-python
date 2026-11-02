@@ -120,7 +120,7 @@ Promise.all([fetch('sortie/tableau.json').then(r=>r.json()),fetch('sortie/journa
   // alertes
   const L={baisse:'Baisse',hausse:'Hausse',rupture:'Rupture',retour:'Retour',nouveau:'Nouveau',retire:'Retiré'};
   $('#alN').textContent=D.alertes.length+' depuis le '+new Date(D.jour).toLocaleDateString('fr-FR',{day:'numeric',month:'long'});
-  $('#al').innerHTML=D.alertes.map(a=>`<div class="al"><span class="t ${a.type}">${L[a.type]}</span><b>${a.nom}</b><span class="v">${a.ecart?`${F(a.prix)} F<em>${a.ecart>0?'+':''}${String(a.ecart).replace('.',',')} %</em>`:''}</span><small>${N[a.source]}</small></div>`).join('');
+  $('#al').innerHTML=D.alertes.map(a=>`<div class="al"><span class="t ${a.type}">${L[a.type]}</span><b>${a.nom}</b><span class="v">${a.ecart?`${F(a.prix)} €<em>${a.ecart>0?'+':''}${String(a.ecart).replace('.',',')} %</em>`:''}</span><small>${N[a.source]}</small></div>`).join('');
   // historique : une série par boutique, légende + étiquettes directes
   const days=[...new Set(D.historique.map(h=>h.jour))];
   function chart(c){const rows=D.historique.filter(h=>h.cle===c),W=440,H=230,pl=8,pr=74,pt=12,pb=26;
@@ -136,7 +136,7 @@ Promise.all([fetch('sortie/tableau.json').then(r=>r.json()),fetch('sortie/journa
     lab.forEach(l=>o+=`<text x="${W-pr+8}" y="${l.y+4}" style="fill:#15171a;font-weight:500">${F(l.z.p.filter(Boolean).slice(-1)[0])}</text>`);
     o+=days.map((d,i)=>`<rect x="${x(i)-(W-pl-pr)/(days.length-1)/2}" y="0" width="${(W-pl-pr)/(days.length-1)}" height="${H-pb}" fill="transparent" data-i="${i}"/>`).join('');
     $('#ch').innerHTML=o;$('#leg').innerHTML=ser.map(z=>`<span><i style="background:${COL[z.s]}"></i>${N[z.s]}</span>`).join('');
-    $('#ch').onmousemove=e=>{const r=e.target.closest('rect');if(!r){$('#tip').style.opacity=0;return}const i=+r.dataset.i;$('#tip').innerHTML=`<b>${new Date(days[i]).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})}</b><br>`+ser.map(z=>`<span style="color:${COL[z.s]}">●</span> ${N[z.s]} : ${z.p[i]?F(z.p[i])+' F':'—'}`).join('<br>');$('#tip').style.opacity=1;$('#tip').style.left=e.clientX+14+'px';$('#tip').style.top=e.clientY+14+'px'};
+    $('#ch').onmousemove=e=>{const r=e.target.closest('rect');if(!r){$('#tip').style.opacity=0;return}const i=+r.dataset.i;$('#tip').innerHTML=`<b>${new Date(days[i]).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})}</b><br>`+ser.map(z=>`<span style="color:${COL[z.s]}">●</span> ${N[z.s]} : ${z.p[i]?F(z.p[i])+' €':'—'}`).join('<br>');$('#tip').style.opacity=1;$('#tip').style.left=e.clientX+14+'px';$('#tip').style.top=e.clientY+14+'px'};
     $('#ch').onmouseleave=()=>$('#tip').style.opacity=0}
   chart(D.comparatif[0].cle);
   $('#cfg').innerHTML='<span class="c"># sources.json : ajouter une boutique = ajouter un bloc</span>\n'+C.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/("[^"]+")(\s*:)/g,'<span class="k">$1</span>$2').replace(/: ("[^"]*")/g,': <span class="s">$1</span>');

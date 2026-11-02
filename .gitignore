@@ -1,0 +1,6 @@
+.claude/
+CLAUDE.md
+.amazonq/
+node_modules/
+_work/
+*.webm

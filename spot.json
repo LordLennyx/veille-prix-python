@@ -1,0 +1,65 @@
+{
+ "titre": "<em>Veille</em>, robot de prix en Python",
+ "type": "Scraping · automatisation",
+ "sous_titre": "Collecte polie, rapprochement, alertes, Excel et tableau de bord",
+ "couleur": "#15171a",
+ "graine": 15,
+ "voix": [
+  [
+   3.3,
+   "Veille, un robot Python de veille de prix,"
+  ],
+  [
+   8.0,
+   "il parcourt les catalogues concurrents, respecte le robots point txt, et rapproche les mêmes produits,"
+  ],
+  [
+   17.0,
+   "baisses de prix, ruptures, historique, tout arrive dans Excel et sur ce tableau de bord."
+  ]
+ ],
+ "etapes": [
+  {
+   "t": "wait",
+   "ms": 3200
+  },
+  {
+   "t": "scroll",
+   "y": 560,
+   "ms": 1300,
+   "pause": 800
+  },
+  {
+   "t": "click",
+   "sel": "#cmp tr.row:nth-child(2)",
+   "pause": 1300
+  },
+  {
+   "t": "hover",
+   "sel": "#ch rect[data-i='4']",
+   "pause": 1300
+  },
+  {
+   "t": "click",
+   "sel": "#cmp tr.row:nth-child(5)",
+   "pause": 1500
+  },
+  {
+   "t": "hover",
+   "sel": "#ch rect[data-i='5']",
+   "pause": 1000
+  },
+  {
+   "t": "scroll",
+   "y": 1000,
+   "ms": 1100,
+   "pause": 1300
+  },
+  {
+   "t": "scroll",
+   "y": 1850,
+   "ms": 1300,
+   "pause": 1600
+  }
+ ]
+}

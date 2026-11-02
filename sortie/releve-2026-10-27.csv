@@ -1,0 +1,44 @@
+﻿source;ref;nom;prix;stock
+kiosque;KIO-1000;Tecno Spark 20 Pro 256 Go;93000;True
+kiosque;KIO-1001;Infinix Hot 40i 128 Go;79000;True
+kiosque;KIO-1002;Samsung Galaxy A15 128 Go;110500;False
+kiosque;KIO-1005;Tecno Camon 30 256 Go;176000;True
+kiosque;KIO-1007;Infinix Note 40 256 Go;145000;True
+kiosque;KIO-1008;Oraimo FreePods 4;19000;True
+kiosque;KIO-1010;Climatiseur Nasco 1,5 CV;218500;True
+kiosque;KIO-1011;Réfrigérateur Hisense 205 L;186500;True
+kiosque;KIO-1012;Téléviseur TCL 43 pouces 4K;152500;True
+kiosque;KIO-1014;Ventilateur Binatone 18 pouces;22500;True
+kiosque;KIO-1016;Ordinateur HP 250 G9 i5;377000;True
+kiosque;KIO-1017;Imprimante Canon Pixma G2410;96000;True
+kiosque;KIO-1018;Routeur 4G Huawei B311;40500;True
+kiosque;KIO-1019;Fer à repasser Philips;13500;True
+marche-digital;MAR-1000;Tecno Spark 20 Pro 256 Go;98000;False
+marche-digital;MAR-1001;Infinix Hot 40i 128 Go;73000;True
+marche-digital;MAR-1004;Xiaomi Redmi 13C 128 Go;78500;True
+marche-digital;MAR-1005;Tecno Camon 30 256 Go;163500;True
+marche-digital;MAR-1006;Samsung Galaxy A25 5G;166500;True
+marche-digital;MAR-1007;Infinix Note 40 256 Go;142500;True
+marche-digital;MAR-1009;Power bank Oraimo 20 000 mAh;15500;True
+marche-digital;MAR-1010;Climatiseur Nasco 1,5 CV;218500;True
+marche-digital;MAR-1013;Congélateur Innova 200 L;178000;True
+marche-digital;MAR-1015;Groupe électrogène Tiger 3 kVA;249500;True
+marche-digital;MAR-1016;Ordinateur HP 250 G9 i5;384500;True
+marche-digital;MAR-1017;Imprimante Canon Pixma G2410;92000;True
+marche-digital;MAR-1018;Routeur 4G Huawei B311;40500;False
+bon-plan;BON-1000;Tecno Spark 20 Pro 256 Go;107000;True
+bon-plan;BON-1002;Samsung Galaxy A15 128 Go;113500;True
+bon-plan;BON-1003;itel A70 64 Go;51000;False
+bon-plan;BON-1005;Tecno Camon 30 256 Go;161500;True
+bon-plan;BON-1007;Infinix Note 40 256 Go;151000;True
+bon-plan;BON-1008;Oraimo FreePods 4;20500;False
+bon-plan;BON-1009;Power bank Oraimo 20 000 mAh;15500;True
+bon-plan;BON-1010;Climatiseur Nasco 1,5 CV;235000;True
+bon-plan;BON-1011;Réfrigérateur Hisense 205 L;190000;True
+bon-plan;BON-1012;Téléviseur TCL 43 pouces 4K;150500;True
+bon-plan;BON-1013;Congélateur Innova 200 L;190500;True
+bon-plan;BON-1014;Ventilateur Binatone 18 pouces;20000;True
+bon-plan;BON-1015;Groupe électrogène Tiger 3 kVA;267500;True
+bon-plan;BON-1017;Imprimante Canon Pixma G2410;96500;True
+bon-plan;BON-1018;Routeur 4G Huawei B311;42500;True
+bon-plan;BON-1019;Fer à repasser Philips;12000;True

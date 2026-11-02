@@ -1,0 +1,14 @@
+{
+  "parametres": {"delai_secondes": 0.3, "tentatives": 3, "agent": "VeillePrixBot/1.0 (+contact@exemple.cm)"},
+  "sources": [
+    {"id": "kiosque", "nom": "Kiosque Akwa", "depart": "kiosque/page-1.html",
+     "item": "article.produit", "champs": {"ref": "@data-ref", "nom": ".produit__titre", "prix": ".produit__prix", "stock": ".badge.dispo"},
+     "suivant": "a[rel=next]"},
+    {"id": "marche-digital", "nom": "Marché Digital", "depart": "marche-digital/page-1.html",
+     "item": "tr.item", "champs": {"ref": ".sku", "nom": ".designation", "prix": ".tarif@data-montant", "stock": ".dispo"},
+     "suivant": "li.next a"},
+    {"id": "bon-plan", "nom": "BonPlan237", "depart": "bon-plan/page-1.html",
+     "item": ".card", "champs": {"ref": "input[name=sku]@value", "nom": ".name", "prix": ".price b", "stock": "!.oos"},
+     "suivant": "a.btn-next"}
+  ]
+}

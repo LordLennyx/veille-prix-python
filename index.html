@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Veille — Robot de veille de prix en Python</title>
+<meta name="description" content="Robot Python qui relève chaque jour les prix de boutiques concurrentes, compare, détecte les baisses et ruptures, et livre un classeur Excel et un tableau de bord.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2315171a'/%3E%3Cpath d='M7 21l6-6 4 4 8-9' fill='none' stroke='%2334d399' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#f6f6f3;--ink:#15171a;--mute:#6b7075;--line:#e3e3dd;--card:#fff;--ok:#0f9d6b;--bad:#d9480f;--s1:#d9480f;--s2:#0b8ba3;--s3:#6741d9}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 15px/1.5 'Geist',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.mono,code,pre{font-family:'Geist Mono',monospace}
+button{font:inherit;color:inherit;cursor:pointer}
+.wrap{max-width:1280px;margin:auto;padding:0 28px}
+nav{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.lg{display:flex;gap:10px;align-items:center;font-weight:700;font-size:19px;letter-spacing:-.03em}
+.lg i{width:30px;height:30px;border-radius:8px;background:var(--ink);display:grid;place-items:center}
+.lg i::after{content:"";width:12px;height:12px;border:2.5px solid #34d399;border-radius:50%}
+nav .mono{font-size:12.5px;color:var(--mute)}
+.hero{display:grid;grid-template-columns:1fr 1.05fr;gap:40px;padding:40px 0 50px;align-items:center}
+.hero h1{font-size:clamp(38px,4.6vw,62px);line-height:1.02;letter-spacing:-.045em;font-weight:600}
+.hero h1 span{color:var(--ok)}
+.hero p{color:#4b5055;font-size:17px;margin-top:20px;max-width:34em}
+.cta{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+.b{height:44px;padding:0 18px;border-radius:12px;border:1px solid var(--line);background:var(--card);font-weight:600;display:inline-flex;align-items:center;gap:8px;text-decoration:none;color:inherit;font-size:14.5px}
+.b.p{background:var(--ink);color:#fff;border-color:var(--ink)}
+.term{background:#15171a;color:#d4d7da;border-radius:18px;overflow:hidden;box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+.term .tb{display:flex;gap:7px;padding:13px 16px;border-bottom:1px solid #26292d}
+.term .tb i{width:11px;height:11px;border-radius:50%;background:#3a3e43}
+.term .tb span{margin-left:10px;font:400 12px 'Geist Mono';color:#7d838a}
+.term pre{padding:16px 18px;font-size:12.5px;line-height:1.7;height:330px;overflow:hidden;white-space:pre-wrap}
+.term .c{color:#34d399}.term .d{color:#7d838a}.term .w{color:#fbbf24}.term .r{color:#f87171}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.kpi b{display:block;font-size:30px;letter-spacing:-.04em;font-weight:600}
+.kpi span{color:var(--mute);font-size:13.5px}
+.grid2{display:grid;grid-template-columns:1.55fr 1fr;gap:18px;align-items:start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.panel h2{font-size:15px;font-weight:600;padding:16px 18px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.panel h2 small{font-weight:400;color:var(--mute);font-size:13px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-weight:500;color:var(--mute);font-size:12.5px;padding:10px 14px;border-bottom:1px solid var(--line);white-space:nowrap}
+td{padding:10px 14px;border-bottom:1px solid #f0f0ec;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:first-child{white-space:normal}
+tr.row{cursor:pointer;transition:background .15s}tr.row:hover{background:#fafaf7}tr.row.on{background:#f1f7f4}
+td.best{font-weight:600;color:var(--ok)}
+td.na{color:#c4c6c2}
+.r{text-align:right}
+.chip{display:inline-block;font-size:12px;font-weight:600;padding:2px 8px;border-radius:100px}
+.chip.hi{background:#fde8dc;color:#9a3412}.chip.lo{background:#eef0ec;color:#4b5055}
+.al{display:grid;grid-template-columns:auto 1fr auto;gap:2px 12px;padding:12px 18px;border-bottom:1px solid #f0f0ec;align-items:center}
+.al .t{grid-row:span 2;font:500 11px 'Geist Mono';text-transform:uppercase;padding:4px 8px;border-radius:7px;letter-spacing:.04em}
+.t.baisse{background:#dcfce7;color:#166534}.t.hausse{background:#fde8dc;color:#9a3412}.t.rupture{background:#fee2e2;color:#991b1b}.t.retour{background:#dbeafe;color:#1e40af}.t.nouveau,.t.retire{background:#eef0ec;color:#4b5055}
+.al b{font-weight:500;font-size:14px}.al small{color:var(--mute);font-size:12.5px}.al .v{grid-row:span 2;text-align:right;font-variant-numeric:tabular-nums;font-size:14px}
+.al .v em{color:var(--mute);font-size:12px;display:block;font-style:normal}
+.chart{padding:14px 18px 18px}
+.chart svg{width:100%;height:auto;overflow:visible}
+.chart text{font:400 11.5px 'Geist';fill:#6b7075}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:13px;color:#4b5055;padding:0 18px 4px}
+.legend i{display:inline-block;width:14px;height:3px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;border-radius:10px;padding:8px 11px;font-size:12.5px;opacity:0;transition:opacity .12s;z-index:9;line-height:1.5}
+.how{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:60px 0 18px}
+.how div{border-top:2px solid var(--ink);padding-top:14px}
+.how b{display:block;font-size:16px;margin-bottom:4px}.how p{color:#4b5055;font-size:14px}
+pre.code{background:#15171a;color:#d4d7da;border-radius:16px;padding:18px;font-size:12.5px;line-height:1.65;overflow:auto;max-height:430px}
+pre.code .k{color:#34d399}pre.code .s{color:#fbbf24}pre.code .c{color:#7d838a}
+footer{border-top:1px solid var(--line);margin-top:60px;padding:22px 0 40px;color:var(--mute);font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.sec{margin-top:24px}
+@media (max-width:980px){.hero,.grid2{grid-template-columns:1fr}.kpis,.how{grid-template-columns:1fr 1fr}.wrap{padding:0 16px}.tw{overflow-x:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="lg"><i></i>veille</div><span class="mono">python · requests · beautifulsoup · sqlite · openpyxl</span></nav>
+<header class="hero">
+  <div><h1>Chaque matin, les prix de vos concurrents, <span>sans copier-coller</span>.</h1>
+    <p>Un robot Python parcourt les catalogues de trois boutiques en ligne, rapproche les mêmes produits, détecte baisses de prix et ruptures, puis livre un classeur Excel et ce tableau de bord. Ici, il tourne sur des boutiques de démonstration fournies avec le code.</p>
+    <div class="cta"><a class="b p" id="xl" href="#" download>Classeur Excel du jour</a><a class="b" href="https://github.com/LordLennyx/veille-prix-python">Code source</a></div></div>
+  <div class="term"><div class="tb"><i></i><i></i><i></i><span>python -m veille --base demo/site</span></div><pre id="term"></pre></div>
+</header>
+
+<section id="board">
+  <div class="kpis" id="kpis"></div>
+  <div class="grid2">
+    <div class="panel"><h2>Comparatif du jour <small>cliquez une ligne pour l'historique</small></h2><div class="tw"><table id="cmp"></table></div></div>
+    <div>
+      <div class="panel"><h2 id="chT">Historique</h2><div class="legend" id="leg"></div><div class="chart"><svg id="ch" viewBox="0 0 440 230"></svg></div></div>
+      <div class="panel sec"><h2>Alertes <small id="alN"></small></h2><div id="al"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="how"><div><b>1. Collecter</b><p>Respect du robots.txt, délai entre requêtes, nouvelles tentatives, pagination suivie automatiquement.</p></div><div><b>2. Extraire</b><p>Une boutique = quelques sélecteurs CSS dans un fichier JSON. Aucun code à modifier pour en ajouter une.</p></div><div><b>3. Comparer</b><p>Rapprochement des produits entre boutiques, historique SQLite, alertes au-delà de 3 % d'écart.</p></div><div><b>4. Livrer</b><p>CSV compatible Excel, classeur mis en forme, JSON pour un tableau de bord ou une alerte e-mail.</p></div></section>
+<pre class="code" id="cfg"></pre>
+<footer><span>Boutiques et produits fictifs. Pour un vrai site, vérifiez ses conditions d'utilisation.</span><span>Njundiyimun Béchard · Développeur & designer</span></footer>
+</div>
+<div class="tip" id="tip"></div>
+<script>
+const $=s=>document.querySelector(s),F=n=>n==null?'—':n.toLocaleString('fr-FR').replace(/\u202f/g,'\u00a0');
+const COL={'kiosque':'#d9480f','marche-digital':'#0b8ba3','bon-plan':'#6741d9'};
+Promise.all([fetch('sortie/tableau.json').then(r=>r.json()),fetch('sortie/journal.txt').then(r=>r.text()),fetch('sources.json').then(r=>r.text())]).then(([D,J,C])=>{
+  D.comparatif=D.comparatif.filter(l=>Object.keys(l.prix).length>1);const N=Object.fromEntries(D.sources.map(s=>[s.id,s.nom]));
+  $('#xl').href=`sortie/veille-${D.jour}.xlsx`;
+  // terminal rejoué
+  const lines=('$ python -m veille --base demo/site --jour '+D.jour+'\n'+J.trim()).split('\n');let i=0;
+  const col=l=>l.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/^(\$.*)$/,'<span class="c">$1</span>').replace(/^(\d\d:\d\d:\d\d)/,'<span class="d">$1</span>').replace(/(BAISSE|RETOUR)/,'<span class="c">$1</span>').replace(/(RUPTURE|HAUSSE)/,'<span class="w">$1</span>');
+  (function tick(){$('#term').innerHTML=lines.slice(0,++i).map(col).join('\n')+(i<lines.length?'\n<span class="c">▍</span>':'');if(i<lines.length)setTimeout(tick,i===1?500:120)})();
+  // indicateurs
+  const pages=D.stats.reduce((s,x)=>s+x.pages,0),prods=D.stats.reduce((s,x)=>s+x.produits,0),baisses=D.alertes.filter(a=>a.type==='baisse').length;
+  const eco=D.comparatif.reduce((s,l)=>s+(Math.max(...Object.values(l.prix))-l.min),0);
+  $('#kpis').innerHTML=`<div class="kpi"><b>${prods}</b><span>produits relevés sur ${pages} pages</span></div><div class="kpi"><b>${D.comparatif.length}</b><span>produits rapprochés entre boutiques</span></div><div class="kpi"><b>${baisses}</b><span>baisses de prix depuis hier</span></div><div class="kpi"><b>${F(Math.round(D.comparatif.reduce((s,l)=>s+l.ecart,0)/D.comparatif.length))} %</b><span>d'écart moyen entre boutiques</span></div>`;
+  // comparatif
+  const ids=D.sources.map(s=>s.id);
+  $('#cmp').innerHTML=`<thead><tr><th>Produit</th>${D.sources.map(s=>`<th class="r"><i style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${COL[s.id]};margin-right:6px"></i>${s.nom}</th>`).join('')}<th class="r">Écart</th></tr></thead><tbody>`+
+    D.comparatif.map((l,k)=>`<tr class="row${k?'':' on'}" data-c="${l.cle}"><td>${l.nom}</td>${ids.map(i=>l.prix[i]?`<td class="r ${l.prix[i]===l.min&&Object.keys(l.prix).length>1?'best':''}">${F(l.prix[i])}</td>`:'<td class="r na">—</td>').join('')}<td class="r"><span class="chip ${l.ecart>=10?'hi':'lo'}">${String(l.ecart).replace('.',',')} %</span></td></tr>`).join('')+'</tbody>';
+  $('#cmp').onclick=e=>{const r=e.target.closest('tr.row');if(!r)return;document.querySelectorAll('tr.row').forEach(x=>x.classList.toggle('on',x===r));chart(r.dataset.c)};
+  // alertes
+  const L={baisse:'Baisse',hausse:'Hausse',rupture:'Rupture',retour:'Retour',nouveau:'Nouveau',retire:'Retiré'};
+  $('#alN').textContent=D.alertes.length+' depuis le '+new Date(D.jour).toLocaleDateString('fr-FR',{day:'numeric',month:'long'});
+  $('#al').innerHTML=D.alertes.map(a=>`<div class="al"><span class="t ${a.type}">${L[a.type]}</span><b>${a.nom}</b><span class="v">${a.ecart?`${F(a.prix)} F<em>${a.ecart>0?'+':''}${String(a.ecart).replace('.',',')} %</em>`:''}</span><small>${N[a.source]}</small></div>`).join('');
+  // historique : une série par boutique, légende + étiquettes directes
+  const days=[...new Set(D.historique.map(h=>h.jour))];
+  function chart(c){const rows=D.historique.filter(h=>h.cle===c),W=440,H=230,pl=8,pr=74,pt=12,pb=26;
+    $('#chT').textContent='Historique : '+D.comparatif.find(l=>l.cle===c).nom;
+    const vals=rows.map(r=>r.prix).filter(Boolean),lo=Math.min(...vals)*.97,hi=Math.max(...vals)*1.02;
+    const x=i=>pl+i*(W-pl-pr)/(days.length-1),y=v=>pt+(hi-v)/(hi-lo)*(H-pt-pb);
+    let o=[0,.5,1].map(t=>{const v=lo+(hi-lo)*t;return`<line x1="${pl}" x2="${W-pr}" y1="${y(v)}" y2="${y(v)}" stroke="#ececE6"/>`}).join('');
+    o+=days.map((d,i)=>i%2?'':`<text x="${x(i)}" y="${H-6}" text-anchor="middle">${new Date(d).toLocaleDateString('fr-FR',{day:'numeric',month:'short'})}</text>`).join('');
+    const ser=ids.map(s=>({s,p:days.map(d=>(rows.find(r=>r.jour===d&&r.source===s)||{}).prix)})).filter(z=>z.p.some(Boolean));
+    let lab=ser.map(z=>({z,y:y(z.p.filter(Boolean).slice(-1)[0])})).sort((a,b)=>a.y-b.y);for(let k=1;k<lab.length;k++)if(lab[k].y-lab[k-1].y<14)lab[k].y=lab[k-1].y+14;
+    ser.forEach(z=>{const pts=z.p.map((v,i)=>v?`${x(i)},${y(v)}`:null).filter(Boolean);o+=`<polyline points="${pts.join(' ')}" fill="none" stroke="${COL[z.s]}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+      z.p.forEach((v,i)=>{if(v)o+=`<circle cx="${x(i)}" cy="${y(v)}" r="4" fill="${COL[z.s]}" stroke="#fff" stroke-width="2"/>`})});
+    lab.forEach(l=>o+=`<text x="${W-pr+8}" y="${l.y+4}" style="fill:#15171a;font-weight:500">${F(l.z.p.filter(Boolean).slice(-1)[0])}</text>`);
+    o+=days.map((d,i)=>`<rect x="${x(i)-(W-pl-pr)/(days.length-1)/2}" y="0" width="${(W-pl-pr)/(days.length-1)}" height="${H-pb}" fill="transparent" data-i="${i}"/>`).join('');
+    $('#ch').innerHTML=o;$('#leg').innerHTML=ser.map(z=>`<span><i style="background:${COL[z.s]}"></i>${N[z.s]}</span>`).join('');
+    $('#ch').onmousemove=e=>{const r=e.target.closest('rect');if(!r){$('#tip').style.opacity=0;return}const i=+r.dataset.i;$('#tip').innerHTML=`<b>${new Date(days[i]).toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})}</b><br>`+ser.map(z=>`<span style="color:${COL[z.s]}">●</span> ${N[z.s]} : ${z.p[i]?F(z.p[i])+' F':'—'}`).join('<br>');$('#tip').style.opacity=1;$('#tip').style.left=e.clientX+14+'px';$('#tip').style.top=e.clientY+14+'px'};
+    $('#ch').onmouseleave=()=>$('#tip').style.opacity=0}
+  chart(D.comparatif[0].cle);
+  $('#cfg').innerHTML='<span class="c"># sources.json : ajouter une boutique = ajouter un bloc</span>\n'+C.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/("[^"]+")(\s*:)/g,'<span class="k">$1</span>$2').replace(/: ("[^"]*")/g,': <span class="s">$1</span>');
+});
+</script>
+</body>
+</html>

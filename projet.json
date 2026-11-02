@@ -1,0 +1,20 @@
+{
+ "repo": "veille-prix-python",
+ "nom": "Veille, robot de veille de prix",
+ "type": "Scraping et automatisation en Python",
+ "categorie": "Data et automatisation",
+ "resume": "Robot Python qui relève chaque jour les catalogues de boutiques concurrentes, rapproche les mêmes produits, garde un historique, signale baisses de prix et ruptures, et livre CSV, classeur Excel mis en forme et tableau de bord web. Livré avec trois boutiques de démonstration pour un test sans risque.",
+ "fonctions": [
+  "Collecte polie : robots.txt, délai entre requêtes, nouvelles tentatives avec attente croissante, pagination automatique",
+  "Extraction déclarative : une boutique = des sélecteurs CSS dans sources.json (attributs, négation « épuisé »), aucune ligne de code à écrire",
+  "Rapprochement des produits entre boutiques (normalisation des noms et unités), historique SQLite",
+  "Alertes : baisse, hausse (seuil 3 %), rupture, retour en stock, nouveau produit, produit retiré",
+  "Exports : CSV pour Excel FR, classeur XLSX (meilleur prix en vert, filtres, volets figés), JSON du tableau de bord",
+  "Tests unitaires pytest ; planification possible par cron, Planificateur Windows ou GitHub Actions"
+ ],
+ "stack": "Python 3.12, requests, BeautifulSoup, SQLite, openpyxl, pytest ; tableau de bord HTML/JS",
+ "extra": {
+  "Lancer la démo": "pip install requests beautifulsoup4 openpyxl && python demo/generer_site.py --jour 1 && python -m veille --base demo/site",
+  "Évolutions possibles": "Playwright pour les sites en JavaScript, proxies, alertes e-mail / Telegram, API"
+ }
+}
